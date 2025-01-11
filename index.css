@@ -1,16 +1,14 @@
-/* Landing page styling */
 .landing-page section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Första justeringen */
-    align-items: flex-start; /* Andra justeringen */
+    justify-content: flex-start;
+    align-items: flex-start; 
     padding: 20px;
     max-width: 700px;
     text-align: left;
-    margin: 0 auto; /* Center the section horizontally */
+    margin: 0 auto; 
 }
 
-/* style.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -19,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow-x: hidden; /* Förhindrar horisontell rullning */
+    overflow-x: hidden; 
 }
 
 header {
@@ -55,34 +53,31 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    /* Remove fixed position for footer to sit at the bottom of the page */
     width: 100%;
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto; 
 }
 
-/* För rubriken "Programmeringsspråk vi lär ut" */
 .programming-languages h2 {
-    text-align: center; /* Centrerar rubriken */
+    text-align: center; 
     width: 100%;
-    margin-bottom: 20px; /* Lägger till lite avstånd under rubriken */
+    margin-bottom: 20px; 
 }
 
-/* För language-icons */
 .language-icons {
-    display: flex; /* Flexbox för att ordna ikonerna */
-    justify-content: center; /* Centrerar ikonerna horisontellt */
-    align-items: center; /* Centrerar ikonerna vertikalt */
-    gap: 30px; /* Mellanrum mellan ikoner */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
     margin-top: 20px;
-    flex-wrap: wrap; /* Gör så att ikoner bryts till en ny rad om det behövs */
-    width: 100%; /* Säkerställer att divn tar upp hela bredden */
-    text-align: center; /* Centrerar texten under varje ikon */
+    flex-wrap: wrap; 
+    width: 100%;
+    text-align: center; 
 }
 
 .language-icons div {
     display: flex;
-    flex-direction: column; /* Gör så att bilden och texten är staplade vertikalt */
-    align-items: center; /* Centrerar texten under bilden */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .language-icons a {

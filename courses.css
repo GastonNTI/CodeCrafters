@@ -1,4 +1,3 @@
-/* Courses page styling */
 .courses-page .grid-courses {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -15,13 +14,12 @@
     max-width: 275px;
 }
 
-/* style.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Förhindrar horisontell rullning */
+    overflow-x: hidden; 
 }
 
 header {
@@ -57,7 +55,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    /* Remove fixed position for footer to sit at the bottom of the page */
     width: 100%;
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto; 
 }

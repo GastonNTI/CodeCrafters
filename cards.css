@@ -1,0 +1,71 @@
+/* Cards page styling */
+.cards-page .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Förhindrar horisontell rullning */
+}
+
+header {
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* Remove fixed position for footer to sit at the bottom of the page */
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
+}

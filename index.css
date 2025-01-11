@@ -1,0 +1,109 @@
+/* Landing page styling */
+.landing-page section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Första justeringen */
+    align-items: flex-start; /* Andra justeringen */
+    padding: 20px;
+    max-width: 700px;
+    text-align: left;
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden; /* Förhindrar horisontell rullning */
+}
+
+header {
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgb(6,64,43);
+    background: linear-gradient(90deg, rgba(6,64,43,1) 0%, rgba(46,204,113,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* Remove fixed position for footer to sit at the bottom of the page */
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* För rubriken "Programmeringsspråk vi lär ut" */
+.programming-languages h2 {
+    text-align: center; /* Centrerar rubriken */
+    width: 100%;
+    margin-bottom: 20px; /* Lägger till lite avstånd under rubriken */
+}
+
+/* För language-icons */
+.language-icons {
+    display: flex; /* Flexbox för att ordna ikonerna */
+    justify-content: center; /* Centrerar ikonerna horisontellt */
+    align-items: center; /* Centrerar ikonerna vertikalt */
+    gap: 30px; /* Mellanrum mellan ikoner */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Gör så att ikoner bryts till en ny rad om det behövs */
+    width: 100%; /* Säkerställer att divn tar upp hela bredden */
+    text-align: center; /* Centrerar texten under varje ikon */
+}
+
+.language-icons div {
+    display: flex;
+    flex-direction: column; /* Gör så att bilden och texten är staplade vertikalt */
+    align-items: center; /* Centrerar texten under bilden */
+}
+
+.language-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.language-icons img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.language-icons img:hover {
+    transform: scale(1.1);
+}
+
+.language-icons p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
